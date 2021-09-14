@@ -1,0 +1,1 @@
+{"possible_values": {"color": ["red", "lime", "chartreuse", "black", "brown", "tangerine", "sand yellow", "cyan", "carrot", "azure", "blue"]}, "difficulties": {"red": 0.025, "lime": 0.05, "chartreuse": 0.375, "black": 0.0125, "blue": 0.015, "brown": 0.0375, "tangerine": 0.075, "cyan": 0.0525, "sand yellow": 0.2, "carrot": 0.085, "azure": 0.125}}
