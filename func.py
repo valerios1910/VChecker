@@ -56,8 +56,8 @@ uniformity = 0.2    #fixed
 iters = 2 #fixed
 
 num_of_workers = 50 #fixed
-spammers = 0.1 #fixed
-unskilled = 0.1 #fixed
+spammers = 0 #fixed
+unskilled = 0 #fixed
 
 errors = 0.05
 bias = 1
