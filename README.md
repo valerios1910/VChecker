@@ -7,6 +7,6 @@ To execute the code, simply run 'python3 main.py pathtojson' from your console, 
 
 e.g. {'possible_values':'red','blue', 'difficulties':'0.1','0.5'}
 
-If the *pathtojson* argument is omitted, the default dataset *rainbow.json* is used.
+_rainbow.json_ is a sample dataset to be used.
 
 The hyperparameters can be found in the func.py file. Details can be found in the report pdf.
