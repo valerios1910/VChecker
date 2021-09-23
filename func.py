@@ -53,7 +53,7 @@ items_to_create = 690   #fixed
 G_size = 0.3  #fixed
 threshold = 0.7 #fixed
 uniformity = 0.2    #fixed
-iters = 2 #fixed
+iters = 1 #fixed
 
 num_of_workers = 50 #fixed
 spammers = 0 #fixed

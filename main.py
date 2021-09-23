@@ -11,12 +11,12 @@ from finding_plan import *
 #find the best value for time_randomness.
 #The necessary variables are set as global.
 
-#time_randomness, metrics, b_metrics = do_the_ranking(plot=True)
-#print("The most realistic value for time randomness is", time_randomness)
-#print("The precision, recall, and F1-score of the rankings compared to \
-#the true rankings, are:")
-#print("Baseline:", b_metrics)
-#print("Optimal :", metrics)
+time_randomness, metrics, b_metrics = do_the_ranking(plot=True)
+print("The most realistic value for time randomness is", time_randomness)
+print("The precision, recall, and F1-score of the rankings compared to \
+the true rankings, are:")
+print("Baseline:", b_metrics)
+print("Optimal :", metrics)
 
 time_randomness = 0.1
 b_costs, b_accs, costs, accs = find_best_plan_pipeline(time_randomness)
@@ -37,6 +37,8 @@ reds = []
 for i in range(4):
 	reds.append(round(100*(b_costs[i]-costs[i])/b_costs[i],2))
 print("\nVChecker achieves a cost reduction of (in %):",reds)
+
+
 
 
 #for i in range(4):
